@@ -13,6 +13,7 @@ class Haustorium < Formula
   def install
     system "make", "build"
     bin.install "bin/haustorium"
+    bin.install "bin/hau-report"
   end
 
   test do
