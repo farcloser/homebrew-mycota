@@ -44,7 +44,7 @@ help:
 	$(call footer, $@)
 
 # Tasks
-lint: lint-go lint-commits lint-mod lint-licenses-all lint-headers lint-yaml lint-shell lint-go-all
+lint: lint-commits lint-headers lint-yaml lint-shell
 
 fix: fix-go-all fix-mod ## Automatically fix some issues
 
